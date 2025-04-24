@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/web102-pre-work-LMFA3M1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://imgur.com/a/web102-pre-work-LMFA3M1"><img src='https://i.imgur.com/2ETIX7N.png' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [Kap](https://getkap.co/) for macOS
 
