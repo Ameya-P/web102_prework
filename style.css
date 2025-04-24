@@ -1,22 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
+hr {
+    border-top: 5px dashed #39FF14;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Cascadia Code';
+    background-color: #563A9C;
+    color:#2b0d38;
 }
 
 #tentacles {
-    width: 50px;
+    width: 250px;
 }
 
 .header {
     display: flex;
-    background-color: lightblue;
-    padding: 1%;
+    background: linear-gradient(#9f13cc, #f600c3);
+    border-radius: 10px;
+    width: 100%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    font-size: x-large;
+    justify-content: center;
+    color:#39FF14;
+    text-shadow: 5px 5px #431C53;
+    box-shadow: 0 0 20px #320459;
 }
 
 .stats-container {
@@ -25,19 +37,22 @@ body {
 
     cursor: pointer;
     border-radius: 7px;
+
+    align-items: stretch;
 }
 
 .stats-container:hover {
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #39FF14
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #8B5DFF;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    box-shadow: 0 0 20px #320459;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -53,21 +68,22 @@ body {
 .game-img {
     width: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    box-shadow: 0 0 10px #39FF14;
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #FFF7D1;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    box-shadow: 0 0 20px #320459;
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #39FF14;
 }
 
 #button-container {
@@ -75,11 +91,15 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Cascadia Code';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    color:#39FF14;
+    text-shadow: 2px 2px #431C53;
+
+    background: linear-gradient(#9f13cc, #f600c3);
 }
 
 #money {
