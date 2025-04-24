@@ -21,6 +21,14 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -71,5 +79,16 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
+    border-radius: 7px;
+}
+
+#money {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img {
+    width: 100%;
     border-radius: 7px;
 }
