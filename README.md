@@ -17,7 +17,12 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [✅] List anything else that you can get done to improve the app functionality!
+* Created a new color scheme inspired by retro-gaming
+* Added a new logo that fit the new color scheme better
+* Changed the font so it was more retro-game-y
+* Added shadows to the cards to make them pop
+* Added gradients to the buttons and header
 
 ## Video Walkthrough
 
@@ -25,12 +30,7 @@ Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [Kap](https://getkap.co/) for macOS
 
 ## Notes
 
